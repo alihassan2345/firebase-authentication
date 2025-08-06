@@ -45,6 +45,7 @@ if(sbtn) {
           timer: 1500
         }).then(() => {
           window.location.href = "login.html";
+
         });
       })
       .catch((error) => {
@@ -95,6 +96,7 @@ if(lbtn) {
           showConfirmButton: false,
           timer: 1500
         }).then(() => {
+          window.location.href = "dashboard.html";
           // Redirect to dashboard or home page after login
           
         });
